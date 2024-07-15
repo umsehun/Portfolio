@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <style>
+       body{
+        background-color: black;
+        height: 1000px;
+       } 
+       .div{
+        margin-top: 1000px;
+        color: white;
+        text-align: center;
+        opacity: 0;
+        transition: all 0.5s;
+       }
+    </style>
+    <div class="div"><h1>ㅎㅇ</h1></div>
+    <div class="div"><h1>ㅎㅇㅎㅇ</h1></div>
+    <div class="div"><h1>ㅎㅇㅎㅇㅎㅇ</h1></div>
+    <div class="div"><h1>반갑지 않아</h1></div>
+    <script>
+    let observer = new IntersectionObserver((e)=>{
+        e.forEach((박스)=>{
+            박스.target.style.opacity =1;
+        })
+    })
+
+    document.querySelectorAll('div')
+    observer.observe(div[0])
+    observer.observe(div[1])
+    observer.observe(div[2])
+    observer.observe(div[3])
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.LOG{
+    text-decoration: none;
+    font-family: 'Nanum Myeongjo';
+    color: white;
+    font-size: 90px;
+    position: fixed;
+}
+
+.div{
+    text-decoration: none;
+    font-family: 'Nanum Brush Script';
+    color: white;
+    position: fixed;
+    right: 115px;
+    font-size: 40px;
+    border-radius: 0 0;
+}
+
+.vid{
+    text-decoration: none;
+    font-family: 'Nanum Brush Script';
+    color: white;
+    position: fixed;
+    right: 0px;
+    font-size: 40px;
+    border: white;
+    border-radius: 10px;
+}
+
+.hr{
+    height: 100px;
+}

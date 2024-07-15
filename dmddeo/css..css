@@ -1,0 +1,45 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: antiquewhite;
+}
+
+.hello
+{
+    position: absolute;
+
+    background-color: aqua;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.menu
+{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(103, 112, 129);
+}
+
+
+.vidio
+{
+
+}
+
+
+
+.main > .vidio
+{
+    display: none;
+}
+
+.hello:hover
+{
+  max-inline-size: 30%;
+}

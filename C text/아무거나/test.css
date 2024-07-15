@@ -1,0 +1,46 @@
+*{
+    
+}
+
+body{
+    background-color: rgb(92, 86, 86);
+}
+
+.menu button {
+    background-color: whitesmoke;
+    border: none;
+    padding: 5px 10px; /* 상하 5px, 좌우 10px로 조정 */
+    text-align: center;
+    cursor: pointer;   
+    border-radius: 50px;
+    margin: 2px;
+}
+
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 50px;
+    margin: 2px;
+    display: none;
+}
+
+
+.a-tag a{
+    position: relative;
+    font-size: 14px;
+    text-align: center;
+     
+}
+
+.menu:hover {
+    display: block;
+}
+
+
+
+
+
+
+/*집가고 싶다*/

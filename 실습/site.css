@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.center h1{
+    color: white;
+    font-family:fantasy;
+    font-size: 60px;
+}
+.download a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: auto;
+    padding: 10px;
+    
+}
+
+.download{
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.download :hover{
+    text-decoration: underline;
+    color: red;
+}
+
+
+
+.iii{
+    width: 300vw;
+    transform: translate(-100vw);
+
+}
+
+.inter{
+    width: 100vw;
+    float: left;
+}
+
+.inter img{
+    width: 400px;
+}

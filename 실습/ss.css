@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.inter a{
+    color: white;
+    text-decoration: none;
+    font-size: 59px;
+}
+.btn a{
+    text-decoration: none;
+
+}
+
+
+
+.bttn a{
+    text-decoration: none;
+    color: rgb(59, 44, 146);
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.bttn {
+    position: absolute;
+    outline: none;
+    padding: px 25px;
+    width: 120px;
+    background:transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border:2px solid whitesmoke;
+    border-radius: 20px;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(0, 0, 0, 1),
+    4px 4px 5px 0px rgba(0, 0, 0, 1)
+}
+
+
+.btn :hover{
+    color: red;
+    background: aliceblue;
+}
+
+.bttn :hover{
+    color: blue;
+    background: aliceblue;
+}
