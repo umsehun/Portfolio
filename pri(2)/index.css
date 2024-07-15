@@ -5,15 +5,18 @@
 }
 
 body{
+    /*중앙으로 정렬하기 위해 사용*/
     display: flex;
     justify-content: center;
     align-items: center;
+    /*중앙으로 정렬하기 위해 사용*/
     min-height: 100vh;
     background: rgb(20, 18, 18);
 }
 
 .login-box{
     position: absolute;
+    /*absolute로 기존에 있던 위치 값 제거*/
     width: 400px;
 }
 
