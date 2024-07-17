@@ -18,7 +18,7 @@ header{
     display: flex;
     /*flex로 하여 비율을 일정하게*/
     justify-content: space-between;
-    /* 플렉스 항목들을 축의 시작 부분에 정렬합니다.*/
+    /* 플렉스 항목들을 축의 시작 부분에 정렬*/
     align-items: center;
     /*안에 있는 글자 중앙으로 정렬*/
     /*justify https://developer.mozilla.org/ko/docs/Web/CSS/justify-content*/

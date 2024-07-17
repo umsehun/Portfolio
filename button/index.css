@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: .3s;
 }
 
 .btn
@@ -21,7 +22,7 @@
     border: none;
     border-radius: 30px;
     max-width: 300px;
-    height: 210px;
+    height: 170px;
     background: black;
     transform: translateX(40%);
     color: wheat;
@@ -32,7 +33,30 @@
     position: relative;
     left: 1em;
     line-height: 2em;
-    width: 20px;
+    transition: .3s;
+}
+
+.text_1
+{
+    width: 82px;
+    transition: .3s;
+}
+
+.text_2
+{
+    width: 56px;
+    transition: .3s;
+}
+
+.text_3
+{
+    width: 68px;
+    transition: .3s;
+}
+
+.text_4
+{
+    width: 50px;
     transition: .3s;
 }
 
@@ -41,10 +65,31 @@
     display: flex;
     text-decoration: none;
     display: none;
+    transition: .3s;
 }
 
-.text_1 p:hover+.text_1 a
+
+
+.text_1:hover i
 {
     display: block;
-    text-decoration: underline;
+    font-weight: 900;
+}
+
+.text_2:hover i
+{
+    display: block;
+    font-weight: 900;
+}
+
+.text_3:hover i
+{
+    display: block;
+    font-weight: 900;
+}
+
+.text_4:hover i
+{
+    display: block;
+    font-weight: 900;
 }
