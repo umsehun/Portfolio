@@ -22,8 +22,11 @@
     transition: .3s;
 }
 
-.text a
+.text p
 {
+    position: relative;
+    display: flex;
+    margin-bottom: 20px;
     font-size: 24px;
     text-decoration: none;
     color:white;
@@ -42,6 +45,11 @@
 
 }
 
+.home:hover
+{
+    text-decoration: underline;
+}
+
 .text li:hover+.home
 {
     transform: translateX(10%);
@@ -49,7 +57,7 @@
     transition: all 3s;
 }
 
-.text a:hover
+.text p:hover
 {
     text-decoration: underline;
     color: wheat;
@@ -60,11 +68,12 @@
     background-color: rgb(65, 64, 64);
     border-radius: 10px;
     display: block;
-    margin-left: 0px;  
+    
     
 }
 
 .imgs{
     max-width: 20em;
+    transition: .3s;
 }
 
