@@ -49,6 +49,8 @@ body {
 }
 
 button {
+    position: absolute;
+    display: flex;
     width: 100%;
     padding: 10px;
     border: none;

@@ -26,6 +26,7 @@ body{
     height: 256px;
     display: flex;
     justify-content: center;
+    /*아이템 값들을 가운데로 정렬*/
     align-items: center;
 }
 
@@ -37,18 +38,18 @@ body{
     background: #5a5050;
     border-radius: 8px;
     transform-origin: 128px;
-   transform: scale(2.2) rotate(calc(var(--i) *
+   transform: scale(2.2/*X,Y를  2만큼 확대*/) rotate(calc(var(--i) *
    (360deg / 50)));
-   animation: animateBlink 3s linear infinite;
+   animation: animateBlink/*애니메이션 이름*/ 3s linear infinite/*애니메이션 길이를 3초로 두고 */;
    animation-delay: calc(var(--i) * (3s /50));
 }
 
 @keyframes animateBlink{
-    0%{
+    0%/*0%일 떄*/{
         background: rgb(111, 128, 129);
     }
 
-    25%{
+    25%/*25%일 떄*/{
         background: #0ef;
     }
 
