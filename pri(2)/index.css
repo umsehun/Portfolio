@@ -40,8 +40,9 @@ body{
     transform-origin: 128px;
    transform: scale(2.2/*X,Y를  2만큼 확대*/) rotate(calc(var(--i) *
    (360deg / 50)));
-   animation: animateBlink/*애니메이션 이름*/ 3s linear infinite/*애니메이션 길이를 3초로 두고 */;
+   animation: animateBlink/*애니메이션 이름*/ 3s linear infinite/*애니메이션 길이를 3초로 두고 일정한 속도를 무한으로 돌림*/;
    animation-delay: calc(var(--i) * (3s /50));
+   /*애니메이션 시작 시간을 3초를 50나눈 0.06초 값을 애니메이션에서 지연 시킴 */
 }
 
 @keyframes animateBlink{
@@ -50,7 +51,7 @@ body{
     }
 
     25%/*25%일 떄*/{
-        background: #0ef;
+        background: rgb(6, 222, 238);
     }
 
 }
