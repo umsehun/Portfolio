@@ -70,8 +70,8 @@ h2{
 
 .input-box{
     position: relative;
+    /*absolute를 하면 하나로 뭉치기 때문에 relativie로 */
     margin: 25px 0px;
-
 }
 
 .input-box input{
