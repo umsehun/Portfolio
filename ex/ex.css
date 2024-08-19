@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main_header
+{
+    color: white;
+    transition: 2s ease;
+    text-align: center;
+}
+
+.main_header:hover
+{
+    color: wheat;
+    text-decoration: underline;
+}
+
+body
+{
+    background-color: black;
+}
