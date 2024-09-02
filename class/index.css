@@ -1,18 +1,76 @@
 *
 {
     margin: 0;
-    padding: 0;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 table
 {
     background-color: aliceblue;
-    border-collapse: collapse;
-    border: 2px solid black;
+    border: none;
+    border: 2px solid;
+    z-index: 1000;
 }
 
-th,td
+.tb-2 td:nth-child(5)
 {
-    padding: 10px;
+    position: absolute;
+    background-color: aqua;
+    padding: 7px;
+    padding-top: 45px;
+    transform: translateY(0%);
+}
+
+.tb-3 td:nth-child(5)
+{
+    border: none;
+}
+
+.tb-4 td:nth-child(5)
+{
+    border: none;
+}
+
+.tb-6 td:nth-child(5)
+{
+    border: none;
+    position: absolute;
+    padding-top: 26px;
+    background-color: aquamarine;
+}
+
+.tb-7 td:nth-child(5)
+{
+    border: none;
+}
+
+.tb-6 td:nth-child(2)
+{
+    position: absolute;
+    padding-top: 26px;
+    background-color: aquamarine;
+}
+
+.tb-7 td:nth-child(2)
+{
+    border: none;
+}
+
+.tb-6 td:nth-child(3)
+{
+    background-color: aqua;
+    border: none;
+}
+
+.tb-7 td:nth-child(3)
+{
+    border: none;
+    background-color: aqua;
+}
+
+
+thead
+{
+    background-color: floralwhite;
 }

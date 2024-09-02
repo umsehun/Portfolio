@@ -1,6 +1,1 @@
-function Lasi()
-{
-
-}
-
-
+document.addEventListener.
