@@ -73,6 +73,12 @@
     border-radius: 12%;
 }
 
+.prev
+{
+    position: relative;
+    border-radius: 12%
+}
+
 body
 {
     background-color:green ;
