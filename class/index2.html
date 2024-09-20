@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>사이드바 예제</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .main_aside {
+            display: none; /* 기본적으로 숨김 */
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 200px;
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        #toggle:checked + .main_aside {
+            display: block; /* 체크박스가 체크되면 보임 */
+        }
+    </style>
+</head>
+<body>
+
+<header class="main_header">
+    <input type="checkbox" id="toggle" style="display: none;">
+    <label for="toggle" class="hover">
+        <i class="fa-solid fa-bars fa-3x" style="color: #fcfcfc;"></i>
+    </label>
+    <aside class="main_aside">
+        <nav class="asie_nav">
+            <a href="">Log in</a>
+            <a href="">Sign up</a>
+            <a href="">Nice</a>
+            <a href="">Hello</a>
+        </nav>
+    </aside>
+</header>
+
+</body>
+</html>

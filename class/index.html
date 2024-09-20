@@ -1,87 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title></title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주문하기</title>
 </head>
 <body>
-    <!-- table태그를 어렵게 짜는 방법 -->
-    <table border="">
-        <thead>
-            <th></th>
-            <th>월</th>
-            <th>화</th>
-            <th>수</th>
-            <th>목</th>
-            <th>금</th>
-        </thead>
-    
-        <tbody class="tb-1">
-            <td>1교시</td>
-            <td>자율</td>
-            <td>영어</td>
-            <td>체육</td>
-            <td>영어</td>
-            <td>응개</td>
-        </tbody>
+    <h2>주문하기</h2>
 
-        <tbody class="tb-2">
-            <td>2교시</td>
-            <td>국어</td>
-            <td>체육</td>
-            <td>미술</td>
-            <td>C#</td>
-            <td>수학</td>
-        </tbody>
+    <form>
+        <fieldset><h3>주문 상품을 선택해주세요</h3>
+            <ul>
+                <li><input type="checkbox" name="product" value="fruit"> 과일선물세트 (최대 5개)</li>
+                <li><input type="checkbox" name="product" value="ginseng"> 홍삼선물세트 (2개 1세트, 최대 10개)</li>
+            </ul>
+       
 
-        <tbody class="tb-3">
-            <td>3교시</td>
-            <td>과학</td>
-            <td>국어</td>
-            <td></td>
-            <td></td>
-            <td>국어</td>
-        </tbody>
-
-        <tbody class="tb-4">
-            <td>4교시</td>
-            <td>진로</td>
-            <td>사회</td>
-            <td>수학</td>
-            <td></td>
-            <td>사회</td>
-        </tbody>
-
-        <tbody class="tb-5">
-            <td>5교시</td>
-            <td>영어</td>
-            <td>수학</td>
-            <td>과학</td>
-            <td>과학</td>
-            <td>사회</td>
-        </tbody>
+        <h3>포장 선택</h3>
+        <input type="radio" name="wrapping" value="yes"> 리본 포장
+        <input type="radio" name="wrapping" value="no"> 리본 포장 안 함
+    </fieldset>
         
-        <tbody class="tb-6">
-            <td>6교시</td>
-            <td>프그</td>
-            <td>C#</td>
-            <td>사회</td>
-            <td>프그</td>
-            <td></td>
-        </tbody>
 
-        <tbody class="tb-7">
-            <td>7교시</td>
-            <td></td>
-            <td></td>
-            <td>사회</td>
-            <td></td>
-            <td></td>
-        </tbody>
-    </table>
+    <fieldset>
+            <h3>배송 정보</h3>
+        <ul>
+            <li><label for="name">이름:</label> <input type="text" id="name" name="name" required></li>
+            <li><label for="phone">연락처:</label> <input type="tel" id="phone" name="phone" required></li>
+            <li><label for="email">이메일:</label> <input type="email" id="email" name="email" required></li>
+            <li>
+                <label for="design">박스 디자인 이미지:</label>
+                <input type="file" id="design" name="design">
+            </li>
+            <li><label for="date">희망 배송일:</label> <input type="date" id="date" name="date" value="2024-09-"></li>
+            <li><label for="message">배송 메시지:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            </li>
+        </ul></fieldset>
+        <h3>배송 정보</h3>
+        <ul>
+
+        <button type="submit">제출하기</button>
+        <button type="reset">다시 작성</button>
+    </form>
 </body>
 </html>
