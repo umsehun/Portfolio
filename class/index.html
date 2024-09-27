@@ -25,9 +25,9 @@
     <fieldset>
             <h3>배송 정보</h3>
         <ul>
-            <li><label for="name">이름:</label> <input type="text" id="name" name="name" required></li>
-            <li><label for="phone">연락처:</label> <input type="tel" id="phone" name="phone" required></li>
-            <li><label for="email">이메일:</label> <input type="email" id="email" name="email" required></li>
+            <li><label for="name">이름:</label> <input type="text" id="name" name="name" required placeholder="이름을 입력해주세요." onfocus="this.placeholder = ''" onblur="this.placeholder = '이름을 입력해주세요.'"></li>
+            <li><label for="phone">연락처:</label> <input type="tel" id="phone" name="phone" required placeholder="연락처를 입력해주세요." onfocus="this.placeholder = ''" onblur="this.placeholder = '연락처를 입력해주세요.'"></li>
+            <li><label for="email">이메일:</label> <input type="email" id="email" name="email" required placeholder="이메일을 입력해주세요." onfocus="this.placeholder = ''" onblur="this.placeholder = '이메일을 입력해주세요.'"></li>
             <li>
                 <label for="design">박스 디자인 이미지:</label>
                 <input type="file" id="design" name="design">
